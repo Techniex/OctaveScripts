@@ -12,5 +12,6 @@ plot(x,y1, 'r--o');
 plot(x,y2, 'b-d');
 legend("sinusoidal plot", "cosine plot");
 title("Line Plot");
+hold off;
 saveas(fig, 'lineplot.png');
 savefig (fig, 'lineplot.fig', "compact");
